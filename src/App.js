@@ -13,7 +13,6 @@ function App() {
   }, []);
 
   const loadFunc = async () => {
-    console.log('~~~~~~~~~~~~~~~~~~', pageNumRef.current)
     if (dataLoading.current) {
       return;
     }
